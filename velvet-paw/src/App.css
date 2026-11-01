@@ -46,7 +46,7 @@ button { font: inherit; color: inherit; }
 
 /* ── logo ── */
 .logo { display: inline-flex; align-items: center; }
-.logo__img { display: block; width: clamp(8rem, 22vw, 11rem); height: auto; }
+.logo__img { display: block; width: clamp(9.5rem, 22vw, 11rem); height: auto; filter: drop-shadow(0 1px 6px rgba(20, 24, 18, 0.75)); }
 .cta .logo { color: var(--sand); }
 
 /* ── button: full width and thumb-sized on phones ── */
@@ -58,7 +58,7 @@ button { font: inherit; color: inherit; }
 .hero__media { grid-area: 3 / 1; position: relative; height: min(72svh, 36rem); overflow: hidden; background: var(--forest);
   -webkit-mask-image: var(--fade-v); mask-image: var(--fade-v); }
 .hero__image { position: absolute; inset: 3rem 0 0 0; background: center 30% / cover no-repeat; }
-.hero__logo { grid-area: 3 / 1; z-index: 2; align-self: start; padding: 1.1rem var(--gutter); }
+.hero__logo { grid-area: 3 / 1; z-index: 2; align-self: start; padding: 0.5rem var(--gutter) 1.1rem; }
 .hero__logo .logo { color: var(--sand); }
 
 .hero__panel { grid-area: 4 / 1; z-index: 1; background: linear-gradient(to bottom, transparent, var(--forest) 4.5rem); display: flex; flex-direction: column; align-items: flex-start; gap: 1.2rem; margin-top: -4.5rem; position: relative; padding: 0 var(--gutter) 3rem; }
