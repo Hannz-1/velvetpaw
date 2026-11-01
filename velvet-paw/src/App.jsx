@@ -26,8 +26,8 @@ const pick = (...keys) => {
 
 const IMAGES = {
   hero: pick("puppy", "yorkie"),
-  lavender: pick("lavender", "sensitive"),
-  doodle: pick("doodle", "spray", "detangl"),
+  lavender: pick("lavender", "levender", "sensitive"),
+  doodle: pick("doodle", "detailing", "spray", "detangl"),
   shedit: pick("shed"),
 };
 
