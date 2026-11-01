@@ -128,7 +128,7 @@ button { font: inherit; color: inherit; }
   .hero__image { inset: 0; background-position: 65% 30%; }
   .hero__media { -webkit-mask-image: var(--fade-h), var(--fade-edges); mask-image: var(--fade-h), var(--fade-edges); -webkit-mask-composite: source-in; mask-composite: intersect; }
   .hero__logo { grid-area: 2 / 1; align-self: start; padding: 2rem var(--gutter) 0; }
-  .hero__panel { grid-area: 2 / 1; align-self: end; margin-top: 0; background: none; padding: 0 4rem 4rem var(--gutter); }
+  .hero__panel { grid-area: 2 / 1; align-self: end; margin-top: 0; background: none; padding: 9.5rem 4rem 4rem var(--gutter); }
   .hero .display { font-size: clamp(2.4rem, 3.6vw, 3.6rem); }
 }
 
