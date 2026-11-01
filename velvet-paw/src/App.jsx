@@ -29,6 +29,7 @@ const IMAGES = {
   lavender: pick("lavender", "levender", "sensitive"),
   doodle: pick("doodle", "detailing", "spray", "detangl"),
   shedit: pick("shed"),
+  logo: pick("/logo."),
 };
 
 const PRODUCTS = [
@@ -52,24 +53,9 @@ const EASE = [0.22, 1, 0.36, 1];
 /* ───────── small building blocks ───────── */
 
 function Logo() {
-  const reduce = useReducedMotion();
   return (
     <div className="logo">
-      <span className="logo__mark">
-        {/* the gold paw pops in once, just after load */}
-        <motion.span
-          className="logo__paw"
-          aria-hidden="true"
-          initial={{ scale: reduce ? 1 : 0 }}
-          animate={{ scale: 1 }}
-          transition={{ type: "spring", stiffness: 320, damping: 11, delay: reduce ? 0 : 1 }}
-        />
-        VP
-      </span>
-      <span className="logo__text">
-        <span className="logo__name">The Velvet Paw</span>
-        <span className="logo__place">Kettering</span>
-      </span>
+      <img className="logo__img" src={IMAGES.logo} alt="The Velvet Paw, Kettering" draggable="false" />
     </div>
   );
 }

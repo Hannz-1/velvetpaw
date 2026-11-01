@@ -45,12 +45,8 @@ button { font: inherit; color: inherit; }
 .lede { font-size: 1.05rem; line-height: 1.65; color: var(--sand); max-width: 36ch; }
 
 /* ── logo ── */
-.logo { display: inline-flex; align-items: center; gap: 0.8rem; color: var(--forest); }
-.logo__mark { position: relative; display: grid; place-items: center; width: 2.8rem; height: 2.8rem; border: 1px solid currentColor; border-radius: 50%; font-family: var(--serif); font-size: 0.95rem; }
-.logo__paw { position: absolute; top: -0.3rem; right: -0.2rem; width: 0.8rem; height: 0.8rem; border-radius: 50%; background: var(--gold); }
-.logo__text { display: grid; gap: 0.3rem; }
-.logo__name { font-family: var(--serif); font-size: 1.2rem; line-height: 1; }
-.logo__place { font-size: 0.58rem; font-weight: 700; letter-spacing: 0.25em; text-transform: uppercase; }
+.logo { display: inline-flex; align-items: center; }
+.logo__img { display: block; width: clamp(8rem, 22vw, 11rem); height: auto; }
 .cta .logo { color: var(--sand); }
 
 /* ── button: full width and thumb-sized on phones ── */
