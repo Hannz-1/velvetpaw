@@ -364,7 +364,7 @@ export default function App() {
 
         <motion.div className="hero__panel" variants={heroList} initial="hidden" animate="show">
           <motion.p className="eyebrow eyebrow--gold" variants={heroItem}>
-            Kettering
+            Boutique dog grooming - Kettering
           </motion.p>
           <Heading
             as="h1"
