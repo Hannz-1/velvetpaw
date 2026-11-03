@@ -50,7 +50,8 @@ button { font: inherit; color: inherit; }
 .cta .logo { color: var(--sand); }
 
 /* ── button: full width and thumb-sized on phones ── */
-.btn { display: block; width: 100%; min-height: 3.5rem; padding: 1.1rem 1.4rem; border: 0; border-radius: 4px; background: var(--sand); color: var(--forest); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; cursor: not-allowed; }
+.btn { display: block; width: 100%; min-height: 3.5rem; padding: 1.1rem 1.4rem; border: 0; border-radius: 4px; background: var(--sand); color: var(--forest); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; text-align: center; text-decoration: none; cursor: pointer; }
+.btn:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
 
 /* ── hero ── */
 .hero { display: grid; grid-template-columns: minmax(0, 1fr); background: var(--forest); }

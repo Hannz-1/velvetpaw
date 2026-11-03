@@ -60,11 +60,13 @@ function Logo() {
   );
 }
 
+const BOOKING_URL = "https://app.groomslot.co.uk/book/the-velvet-paw-kettering-qr05nc";
+
 function BookingButton() {
   return (
-    <button className="btn" type="button" disabled aria-disabled="true">
-      Online booking coming soon
-    </button>
+    <a className="btn" href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
+      Book now
+    </a>
   );
 }
 
@@ -461,7 +463,7 @@ export default function App() {
             inView
             lines={[["Book their"], ["next groom.", true]]}
           />
-          <p className="lede">Online appointments are coming soon.</p>
+          <p className="lede">Book your dog's appointment online in a few taps.</p>
           <BookingButton />
           <p className="cta__place">Kettering - Free onsite parking</p>
           <PawTrail reduce={reduce} />
