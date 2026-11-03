@@ -12,8 +12,6 @@ import {
 } from "framer-motion";
 import "./App.css";
 
-// Drop your images in src/assets. They are matched by a keyword in the file name,
-// so exact names don't matter (e.g. "puppy.jpg", "lavender.png", "doodle.png", "shed-it.png").
 const FILES = import.meta.glob("./assets/*.{png,jpg,jpeg,webp,avif}", { eager: true });
 const pick = (...keys) => {
   // keys are tried in order, so the first keyword wins
