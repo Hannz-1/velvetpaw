@@ -104,7 +104,6 @@ button { font: inherit; color: inherit; }
 .cta__inner { display: flex; flex-direction: column; align-items: flex-start; gap: 1.2rem; }
 .cta__inner .logo { margin-bottom: 1.6rem; }
 .cta__inner .btn { margin-top: 0.6rem; }
-.cta__place { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--stone); }
 
 .footer { padding: 1.3rem var(--pad) calc(1.3rem + env(safe-area-inset-bottom)); background: var(--forest); border-top: 1px solid rgba(214, 202, 187, 0.15); font-size: 0.62rem; letter-spacing: 0.15em; text-transform: uppercase; text-align: center; color: var(--stone); }
 

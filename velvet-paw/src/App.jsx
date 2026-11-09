@@ -456,7 +456,6 @@ export default function App() {
           />
           <p className="lede">Book your dog's appointment online in a few taps.</p>
           <BookingButton />
-          <p className="cta__place">Kettering - Free onsite parking</p>
           <PawTrail reduce={reduce} />
         </div>
       </section>
