@@ -329,13 +329,6 @@ export default function App() {
       <section className="hero" aria-labelledby="hero-title">
         <div className="topbar">
           <span className="topbar__item">
-            <span className="pulse" aria-hidden="true" />
-            <span>
-              Opening soon<span className="sm-hide"> in Kettering</span>
-            </span>
-          </span>
-          <span className="topbar__sep" aria-hidden="true" />
-          <span className="topbar__item">
             <span className="pmark" aria-hidden="true">P</span>
             <span>Free onsite parking</span>
           </span>
